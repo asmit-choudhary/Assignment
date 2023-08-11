@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+}
+
+body {
+    background-image: url(/HTML/29nhJr.png);
+    margin: 200px;
+    background-color: rgb(52, 52, 231);
+  }
+
+.container{
+    width: 800px;
+    height: 50%;
+    overflow: hidden;
+    border: 0px solid #000;
+    margin: 50px auto;
+    padding: 10px;
+    display: flex;
+
+}
+
+.main1{
+    width: 400px;
+    height: 50%;
+    margin: 15px auto;
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    padding: 40px 52px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.main2{
+    width: 350px;
+    height: 40%;
+    margin: 15px auto;
+    background-color: rgb(227, 216, 216);
+    border: 2px solid #e6e6e6;
+    padding: 36.3px 45px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+input{
+    margin-top: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.card-area{
+    display: flex;
+
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.second{
+    margin: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay{
+    margin-top: 15px;
+    margin-bottom: 12px;
+    width: 50%;
+    background-color: blue;
+    padding: 8px 15px;
+    color: #fff;
+    border:skyblue;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}

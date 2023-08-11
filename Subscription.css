@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .columns {
+    float: left;
+    width: 25%;
+    padding: 8px;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .header {
+    background-color:rgb(52, 52, 231);
+    color: white;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+
+  .btn {
+    margin-top: 15px;
+    margin-bottom: 12px;
+    margin-left: 680px;
+    width: 10%;
+    background-color: skyblue;
+    padding: 5px 12px;
+    color: #fff;
+    border:skyblue;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  .btn:focus:hover{
+    background-color: rgb(52, 52, 231);
+  }
+
+  .plan{
+    background-color: rgb(52, 52, 231);
+    height:50px;
+    margin-left: 650px;
+    border-radius: 30px;
+    color: white;
+    width: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  button{
+    text-decoration: none;
+    background-color: rgb(52, 52, 231);
+    border: none;
+  }
+
+  .p:hover{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: white;
+    color: aqua;
+    cursor: pointer;
+  }
+
+  .p:focus{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: white;
+    color: aqua;
+    cursor: pointer;
+  }

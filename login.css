@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+  }
+
+  body {
+    background-image: url(/HTML/29nhJr.png);
+    margin: 80px;
+    background-color: rgb(52, 52, 231);
+  }
+
+  #wrapper {
+    width: 500px;
+    height: 50%;
+    overflow: hidden;
+    border: 0px solid #000;
+    margin: 40px auto;
+    padding: 10px;
+  }
+
+  .main-content {
+    width: 255px;
+    height: 40%;
+    margin: 15px auto;
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    padding: 40px 50px;
+    border-radius: 10px;
+  }
+
+  .header {
+    border: 0px solid #000;
+  }
+
+  .header img {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 40px;
+    margin-top: -35px;
+  }
+
+  .input-1,
+  .input-2 {
+    margin-top: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  .overlap-text {
+    position: relative;
+  }
+
+  .overlap-text a {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: #003569;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Overpass Mono", monospace;
+    letter-spacing: -1px;
+  }
+
+  .btn {
+    margin-top: 15px;
+    margin-bottom: 12px;
+    width: 100%;
+    background-color: skyblue;
+    padding: 5px 12px;
+    color: #fff;
+    border:skyblue;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  .sub-content {
+    width: 250px;
+    height: 40%;
+    margin: 10px auto;
+    border: 1px solid #e6e6e6;
+    padding: 20px 50px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .s-part {
+    text-align: center;
+    font-family: "Overpass Mono", monospace;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-family: cursive;
+  }
+
+  .s-part a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3897f0;
+    font-family: "Overpass Mono", monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+  }
+
+  .btn:focus{
+    background-color: dodgerblue;
+  }
+
+  .btn:hover{
+    background-color: dodgerblue;
+  }
+
+  .or{
+      padding: 5px;
+  }
+
+  .or-1 , .or-2{
+      display: inline-block;
+      width: 100px;
+  }
+
+  .or-3{
+    display: inline-block;
+    font-weight: bold;
+    color: gray;
+    font-size: large;
+  }
+
+  .facebook{
+      margin-top: 10px;
+      text-align: center;
+      font-weight: bolder;
+      font-family: cursive;          
+  }
+
+  a:visited{
+      text-decoration: none;
+  }
+  a:active{
+      text-decoration: none;
+  }
+  a:link{
+      text-decoration: none;
+  }
+  a:hover{
+      text-decoration: none;
+  }

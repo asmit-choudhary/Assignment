@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+  }
+
+  body {
+    background-image: url(/HTML/darkbackground.jpg);
+    margin: 30px;
+    background-color: rgb(52, 52, 231);
+  }
+
+  #mainData {
+    width: 500px;
+    height: 50%;
+    overflow: hidden;
+    border: 0px solid #000;
+    margin: 50px auto;
+    padding: 10px;
+  }
+
+  .have {
+    width: 285px;
+    height: 40%;
+    margin: auto;
+    border: 1px solid #e6e6e6;
+    padding: 20px 50px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .main-content {
+    width: 280px;
+    height: 40%;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    padding: 40px 50px;
+    border-radius: 10px;
+  } 
+
+  .header {
+    border: 0px solid #000;
+    margin-bottom: -20px;
+  }
+
+  .header img {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 40px;
+    margin-top: -45px;
+  }
+
+  .text {
+      margin-top: 10px;
+      text-align: center;
+      font-weight: bolder;
+      font-size: medium;
+      font-family: cursive;
+      color: gray;
+  }
+
+  .btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: dodgerblue;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: cursive;
+    padding: 10px 12px;
+    color: #fff;
+    border:skyblue;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .btn:hover{
+    background-color: rgb(52, 52, 231);
+  }
+
+  .btn:focus{
+    background-color: rgb(52, 52, 231);
+  }
+
+  .or{
+      margin-top: 5px;
+      padding: 5px;
+  }
+
+  .or-1 , .or-2{
+      display: inline-block;
+      width: 120px;
+  }
+
+  .or-3{
+    display: inline-block;
+    font-weight: bold;
+    color: gray;
+    font-size: large;
+  }
+
+  .input-1,
+  .input-2 , 
+  .input-3 ,
+  .input-4{
+    margin-top: 2px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  .s-part {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+  }
+
+  .s-part a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3897f0;
+    font-family: cursive;
+    font-weight: bold;
+  }
